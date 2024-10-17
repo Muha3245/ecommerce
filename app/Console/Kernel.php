@@ -21,6 +21,7 @@ class Kernel extends ConsoleKernel
     protected function commands(): void
     {
         $this->load(__DIR__.'/Commands');
+        Commands\TraitMakeCommand::class;
 
         require base_path('routes/console.php');
     }

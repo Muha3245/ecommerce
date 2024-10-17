@@ -18,4 +18,5 @@ class RoleSeeder extends Seeder
         Role::create(['name'=> 'auther']);
         Role::create(['name'=> 'user']);
     }
+
 }
