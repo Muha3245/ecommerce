@@ -44,6 +44,8 @@ class NewUserRegistered extends Notification
                     ->line('Thank you for using our application!');
     }
 
+
+
     /**
      * Get the array representation of the notification.
      *
